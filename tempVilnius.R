@@ -25,6 +25,7 @@ cat("\n to compute use the function : tempVilnius(fileNumber)")
 ## example
 ## janvier2015 <- tempVilnius(5)
 
+# oct31 <- dmy_hm("31-10-2015 23:00",tz="Europe/Vilnius")  
 # with(oct14, plot(date, temperature, ylim=c(-5, 25), 
 #                  main ="Température en octobre \n comparatif 2014-2015"))
 # # abline(lm(temperature~date, oct14),col=1)
