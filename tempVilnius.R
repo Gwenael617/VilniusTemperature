@@ -1,4 +1,4 @@
-setwd('E:/Rwd/VilniusTemperature')
+setwd('N:/Rwd/VilniusTemperature')
 
 cat("\n list of files in data folder : \n \n")
 print(list.files("./data")) ## check the file numbers to pick up the correct one
