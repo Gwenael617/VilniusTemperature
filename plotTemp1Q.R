@@ -12,6 +12,7 @@ with(sd2015, plot(date, temperature, xlab="", ylab= "", ylim=c(-25,25),
 par(new=T)
 with(sd2016, plot(date, temperature, xlab="", ylab="", ylim=c(-25,25), 
                   pch=17, col="deepskyblue", 
-                  xlim=c(min(date), apr30)))
+                  xlim=c(min(date), apr30),
+                  xaxt="n"))
 legend("bottomright", legend= c("2014  ","2015  ","2016  "), 
        pch=c(1,20,17), col=c(1,2,"deepskyblue"), cex=0.8)
